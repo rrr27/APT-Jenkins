@@ -9,3 +9,5 @@ class ControlledTests(unittest.TestCase):
         computed_result = compute_highest_affinity.highest_affinity(site_list, user_list, time_list)
         expected_result = ("a.com", "b.com")
         self.assertEqual(computed_result, expected_result)
+		
+	
